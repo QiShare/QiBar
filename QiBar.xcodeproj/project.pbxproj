@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14000AE5225B4EE8008CDC0B /* QiTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14000AE4225B4EE8008CDC0B /* QiTabBarController.m */; };
+		14000AE8225B507F008CDC0B /* SecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14000AE7225B507F008CDC0B /* SecondController.m */; };
+		14503E41224C6A07007A73AA /* LargeTitleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14503E3D224C6A07007A73AA /* LargeTitleTableViewController.m */; };
+		14503E42224C6A07007A73AA /* SearchResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14503E3F224C6A07007A73AA /* SearchResultsTableViewController.m */; };
+		14503E45224C6A30007A73AA /* APLProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 14503E44224C6A30007A73AA /* APLProduct.m */; };
+		14503EB4224DCD3A007A73AA /* CustomNavBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14503EB3224DCD3A007A73AA /* CustomNavBarController.m */; };
+		1461A9F12249C6A1001E0BCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1461A9F02249C6A1001E0BCA /* AppDelegate.m */; };
+		1461A9F42249C6A1001E0BCA /* FirstController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1461A9F32249C6A1001E0BCA /* FirstController.m */; };
+		1461A9F92249C6AB001E0BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1461A9F82249C6AB001E0BCA /* Assets.xcassets */; };
+		1461A9FC2249C6AB001E0BCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1461A9FA2249C6AB001E0BCA /* LaunchScreen.storyboard */; };
+		1461A9FF2249C6AB001E0BCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1461A9FE2249C6AB001E0BCA /* main.m */; };
+		1461AA072249CE08001E0BCA /* BarStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1461AA062249CE08001E0BCA /* BarStyleViewController.m */; };
+		1461AA0A2249D856001E0BCA /* QiNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1461AA092249D856001E0BCA /* QiNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14000AE3225B4EE8008CDC0B /* QiTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiTabBarController.h; sourceTree = "<group>"; };
+		14000AE4225B4EE8008CDC0B /* QiTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiTabBarController.m; sourceTree = "<group>"; };
+		14000AE6225B507F008CDC0B /* SecondController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondController.h; sourceTree = "<group>"; };
+		14000AE7225B507F008CDC0B /* SecondController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondController.m; sourceTree = "<group>"; };
+		14503E3D224C6A07007A73AA /* LargeTitleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LargeTitleTableViewController.m; sourceTree = "<group>"; };
+		14503E3E224C6A07007A73AA /* LargeTitleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LargeTitleTableViewController.h; sourceTree = "<group>"; };
+		14503E3F224C6A07007A73AA /* SearchResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultsTableViewController.m; sourceTree = "<group>"; };
+		14503E40224C6A07007A73AA /* SearchResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultsTableViewController.h; sourceTree = "<group>"; };
+		14503E43224C6A30007A73AA /* APLProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLProduct.h; sourceTree = "<group>"; };
+		14503E44224C6A30007A73AA /* APLProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLProduct.m; sourceTree = "<group>"; };
+		14503EB2224DCD3A007A73AA /* CustomNavBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavBarController.h; sourceTree = "<group>"; };
+		14503EB3224DCD3A007A73AA /* CustomNavBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavBarController.m; sourceTree = "<group>"; };
+		1461A9EC2249C6A1001E0BCA /* QiBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1461A9EF2249C6A1001E0BCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1461A9F02249C6A1001E0BCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1461A9F22249C6A1001E0BCA /* FirstController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstController.h; sourceTree = "<group>"; };
+		1461A9F32249C6A1001E0BCA /* FirstController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstController.m; sourceTree = "<group>"; };
+		1461A9F82249C6AB001E0BCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1461A9FB2249C6AB001E0BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1461A9FD2249C6AB001E0BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1461A9FE2249C6AB001E0BCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1461AA052249CE08001E0BCA /* BarStyleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarStyleViewController.h; sourceTree = "<group>"; };
+		1461AA062249CE08001E0BCA /* BarStyleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarStyleViewController.m; sourceTree = "<group>"; };
+		1461AA082249D856001E0BCA /* QiNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiNavigationController.h; sourceTree = "<group>"; };
+		1461AA092249D856001E0BCA /* QiNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1461A9E92249C6A1001E0BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1429493222535FBB001848B4 /* BarStyle */ = {
+			isa = PBXGroup;
+			children = (
+				1461AA052249CE08001E0BCA /* BarStyleViewController.h */,
+				1461AA062249CE08001E0BCA /* BarStyleViewController.m */,
+			);
+			path = BarStyle;
+			sourceTree = "<group>";
+		};
+		14503E3C224C6703007A73AA /* LargeTitle */ = {
+			isa = PBXGroup;
+			children = (
+				14503E43224C6A30007A73AA /* APLProduct.h */,
+				14503E44224C6A30007A73AA /* APLProduct.m */,
+				14503E3E224C6A07007A73AA /* LargeTitleTableViewController.h */,
+				14503E3D224C6A07007A73AA /* LargeTitleTableViewController.m */,
+				14503E40224C6A07007A73AA /* SearchResultsTableViewController.h */,
+				14503E3F224C6A07007A73AA /* SearchResultsTableViewController.m */,
+			);
+			path = LargeTitle;
+			sourceTree = "<group>";
+		};
+		14503EA4224DCB98007A73AA /* CustomNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				14503EB2224DCD3A007A73AA /* CustomNavBarController.h */,
+				14503EB3224DCD3A007A73AA /* CustomNavBarController.m */,
+			);
+			path = CustomNavBar;
+			sourceTree = "<group>";
+		};
+		1461A9E32249C6A1001E0BCA = {
+			isa = PBXGroup;
+			children = (
+				1461A9EE2249C6A1001E0BCA /* QiBar */,
+				1461A9ED2249C6A1001E0BCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1461A9ED2249C6A1001E0BCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1461A9EC2249C6A1001E0BCA /* QiBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1461A9EE2249C6A1001E0BCA /* QiBar */ = {
+			isa = PBXGroup;
+			children = (
+				1461A9EF2249C6A1001E0BCA /* AppDelegate.h */,
+				1461A9F02249C6A1001E0BCA /* AppDelegate.m */,
+				14000AE3225B4EE8008CDC0B /* QiTabBarController.h */,
+				14000AE4225B4EE8008CDC0B /* QiTabBarController.m */,
+				1461AA082249D856001E0BCA /* QiNavigationController.h */,
+				1461AA092249D856001E0BCA /* QiNavigationController.m */,
+				1461A9F22249C6A1001E0BCA /* FirstController.h */,
+				1461A9F32249C6A1001E0BCA /* FirstController.m */,
+				14000AE6225B507F008CDC0B /* SecondController.h */,
+				14000AE7225B507F008CDC0B /* SecondController.m */,
+				1429493222535FBB001848B4 /* BarStyle */,
+				14503E3C224C6703007A73AA /* LargeTitle */,
+				14503EA4224DCB98007A73AA /* CustomNavBar */,
+				1461A9F82249C6AB001E0BCA /* Assets.xcassets */,
+				1461A9FA2249C6AB001E0BCA /* LaunchScreen.storyboard */,
+				1461A9FD2249C6AB001E0BCA /* Info.plist */,
+				1461A9FE2249C6AB001E0BCA /* main.m */,
+			);
+			path = QiBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1461A9EB2249C6A1001E0BCA /* QiBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1461AA022249C6AB001E0BCA /* Build configuration list for PBXNativeTarget "QiBar" */;
+			buildPhases = (
+				1461A9E82249C6A1001E0BCA /* Sources */,
+				1461A9E92249C6A1001E0BCA /* Frameworks */,
+				1461A9EA2249C6A1001E0BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QiBar;
+			productName = QiNavigationBar;
+			productReference = 1461A9EC2249C6A1001E0BCA /* QiBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1461A9E42249C6A1001E0BCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = dac_1033;
+				TargetAttributes = {
+					1461A9EB2249C6A1001E0BCA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 1461A9E72249C6A1001E0BCA /* Build configuration list for PBXProject "QiBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1461A9E32249C6A1001E0BCA;
+			productRefGroup = 1461A9ED2249C6A1001E0BCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1461A9EB2249C6A1001E0BCA /* QiBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1461A9EA2249C6A1001E0BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1461A9FC2249C6AB001E0BCA /* LaunchScreen.storyboard in Resources */,
+				1461A9F92249C6AB001E0BCA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1461A9E82249C6A1001E0BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1461AA0A2249D856001E0BCA /* QiNavigationController.m in Sources */,
+				14503E41224C6A07007A73AA /* LargeTitleTableViewController.m in Sources */,
+				1461AA072249CE08001E0BCA /* BarStyleViewController.m in Sources */,
+				14000AE5225B4EE8008CDC0B /* QiTabBarController.m in Sources */,
+				14503E42224C6A07007A73AA /* SearchResultsTableViewController.m in Sources */,
+				14000AE8225B507F008CDC0B /* SecondController.m in Sources */,
+				1461A9F42249C6A1001E0BCA /* FirstController.m in Sources */,
+				14503EB4224DCD3A007A73AA /* CustomNavBarController.m in Sources */,
+				14503E45224C6A30007A73AA /* APLProduct.m in Sources */,
+				1461A9FF2249C6AB001E0BCA /* main.m in Sources */,
+				1461A9F12249C6A1001E0BCA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1461A9FA2249C6AB001E0BCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1461A9FB2249C6AB001E0BCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1461AA002249C6AB001E0BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1461AA012249C6AB001E0BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1461AA032249C6AB001E0BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "/Users/wangdacheng/Documents/Test-Projects/QiNavigationBar/QiBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.qishare.QiNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1461AA042249C6AB001E0BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "/Users/wangdacheng/Documents/Test-Projects/QiNavigationBar/QiBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.qishare.QiNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1461A9E72249C6A1001E0BCA /* Build configuration list for PBXProject "QiBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1461AA002249C6AB001E0BCA /* Debug */,
+				1461AA012249C6AB001E0BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1461AA022249C6AB001E0BCA /* Build configuration list for PBXNativeTarget "QiBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1461AA032249C6AB001E0BCA /* Debug */,
+				1461AA042249C6AB001E0BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1461A9E42249C6A1001E0BCA /* Project object */;
+}
