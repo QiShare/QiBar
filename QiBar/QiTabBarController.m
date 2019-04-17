@@ -14,8 +14,6 @@
 @interface QiTabBarController () <UITabBarControllerDelegate>
 
 @property (strong, nonatomic) NSMutableArray<UIImage *> *imgArr;
-@property (strong, nonatomic) UIImageView *currentImgView;
-@property (assign, nonatomic) NSInteger currentIndex;
 
 @end
 
@@ -101,18 +99,16 @@
     UIImageView *imageView = tabBarBtn.subviews.firstObject;
     
     if (index == 0) {
+        [imageView stopAnimating];
         imageView.animationImages = _imgArr;
         imageView.animationRepeatCount = 1;
         imageView.animationDuration = 0.7;
         [imageView startAnimating];
     } else {
-        [_currentImgView stopAnimating];
-        _currentImgView.animationImages = nil;
-        [imageView.layer addAnimation:[self getCustomAnimation] forKey:nil];
+        static NSString *tabBarBtnAnimationKey = @"tabBarBtnAnimationKey";
+        [imageView.layer removeAnimationForKey:tabBarBtnAnimationKey];
+        [imageView.layer addAnimation:[self getCustomAnimation] forKey:tabBarBtnAnimationKey];
     }
-    
-    _currentImgView = imageView;
-    _currentIndex = index;
     
     return YES;
 }
